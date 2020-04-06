@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<!--  This site was created in Webflow. http://www.webflow.com  -->
+<!--  Last Published: Mon Mar 23 2020 22:47:29 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="5e3056e4c8d425f8bb7c6559" data-wf-site="5e3056e4c8d42507e27c654e">
+
+<head>
+  <meta charset="utf-8">
+  <title>Book an Appointment</title>
+  <meta content="Book an Appointment" property="og:title">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/serenityhealth.webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/appointment.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script
+    type="text/javascript">WebFont.load({ google: { families: ["Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic", "Hind:300,regular,600", "Neuton:200,300,regular"] } });</script>
+  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+  <script
+    type="text/javascript">!function (o, c) { var n = c.documentElement, t = " w-mod-"; n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch") }(window, document);</script>
+  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.png" rel="apple-touch-icon">
+</head>
+
+<body>
+  <div class="page-wrapper">
+    <div class="navbar-placeholder">
+      <div class="navbar-ix-trigger"></div>
+    </div>
+    <div class="navbar-fixed">
+      <div data-collapse="medium" data-animation="default" data-duration="400" class="navbar w-nav">
+        <div class="container navbar-container"><a href="index.html" class="brand w-nav-brand"><img
+              src="images/logo2.png" alt="" class="image-2"></a>
+          <nav role="navigation" class="homepage-nav-menu w-nav-menu">
+            <div data-hover="1" data-delay="100" class="nav-dropdown w-dropdown">
+              <div class="nav-link dropdown-toggle w-dropdown-toggle">
+                <div class="inline-block">Home</div><img src="images/Down.svg" width="9" alt="" class="dropdown-icon">
+                <div class="div-extender"></div>
+              </div>
+              <nav class="nav-dropdown-list w-dropdown-list">
+                <div class="dropdown-diamond"></div><a href="index.html"
+                  class="nav-link dropdown-nav-link w-nav-link">Home 1</a><a href="home-layout-two.html"
+                  class="nav-link dropdown-nav-link w-nav-link">Home 2</a>
+              </nav>
+            </div><a href="pricing.html" aria-current="page" class="nav-link w-nav-link w--current">Virtual Care</a>
+            <a href="appointment.html" class="nav-link w-inline-block">
+              <div ms-hide-member="basic" class="hidden-with-an-attribute" data-ix="black-tooltip-hover">
+                <div class="black-tooltip lock-tooltip" data-ix="black-tooltip-initial">
+                  <div class="black-diamond"></div>
+                </div>
+              </div>
+              <div class="inline-block">Visit a hospital</div>
+            </a>
+            <a href="premium/account.html" class="nav-link w-inline-block">
+              <div ms-hide-member="premium" class="hidden-with-an-attribute hide-premium-member"
+                data-ix="black-tooltip-hover">
+                <div class="black-tooltip lock-tooltip" data-ix="black-tooltip-initial">
+                  <div class="black-diamond"></div>
+                </div>
+              </div>
+              <div class="inline-block">Mobile Care</div>
+            </a>
+            <a href="http://patient.serenity.health" target="_blank" class="nav-link w-nav-link">Coronavirus
+              COVID-19<br></a><a href="patient.serenity.health" target="_blank"
+              class="button navbar-cta hide-current w-nav-link">
+              Sign In
+            </a>
+          </nav>
+          <div class="menu-button w-nav-button">
+            <div class="nav-icon w-icon-nav-menu"></div>
+          </div>
+        </div>
+        <div class="navbar-shadow"></div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2>Book an appointment</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <a href="http://patient.serenity.health/#/new-appointment">
+            <div class="appt-type-box">
+              <!-- img -->
+              <div class="row img">
+                <div class="col"></div>
+              </div>
+              <!-- title -->
+              <div class="row title">
+                <div class="col">
+                  In Clinic Visit
+                </div>
+              </div>
+              <!-- desc -->
+              <div class="row desc">
+                <div class="col">
+                  In person, primary and urgent care
+                </div>
+              </div>
+              <!-- time -->
+              <div class="row time">
+                <div class="col">
+                  24/7
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-6">
+          <a href="virtualcare.html">
+            <div class="appt-type-box">
+              <!-- img -->
+              <div class="row img">
+                <div class="col"></div>
+              </div>
+              <!-- title -->
+              <div class="row title">
+                <div class="col">
+                  Virtual Care
+                </div>
+              </div>
+              <!-- desc -->
+              <div class="row desc">
+                <div class="col">
+                  Video or chat with a provider
+                </div>
+              </div>
+              <!-- time -->
+              <div class="row time">
+                <div class="col">
+                  30-minute time slots
+                </div>
+              </div>
+            </div>
+        </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-section">
+      <div data-w-id="dc06095e-712f-20ef-aaa2-14855b29c909" class="container">
+        <div class="footer-row"><img src="images/logo2.png" alt="" class="footer-image">
+          <div>
+            <div class="social-icon"><img src="images/twitter.svg" alt=""></div>
+            <div class="social-icon"><img src="images/facebook.svg" alt=""></div>
+            <div class="social-icon"><img src="images/google.svg" alt=""></div>
+          </div>
+        </div>
+        <div class="footer-row">
+          <div class="footer-copywrite">© Serenity 2020. All rights reserved.<br></div>
+          <div class="footer-link-wrapper"><a href="#" class="footer-link">Contact</a><a href="pricing.html"
+              aria-current="page" class="footer-link w--current">Pricing</a><a href="#" class="footer-link">About
+              Us</a><a href="#" class="footer-link">Support</a>
+            <div memberstack-template="Light Template" class="template-tag"><a href="http://memberstack.io"
+                target="_blank" class="w-inline-block"></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script>
+    setTimeout(() => {
+      $("#time").val(moment().format('YYYY-MM-DDThh:mm'))
+    }, 3000)
+    //document.addEventListener("load", function() {
+    //  console.log('hello')
+    //  $("#time").val(moment().format('YYYY-MM-DDThh:mm'))
+    //})
+    function submitForm() {
+      var appt = {
+        sz_bookerid: '0',
+        sz_bookedforid: '0',
+        sz_unitid: $("#area").val(),
+        sz_bookedtime: moment().format('YYYY-MM-DD hh:mm'),
+        sz_bookedfortime: moment($("#time").val()).format('YYYY-MM-DD hh:mm'),
+        sz_docname: 'Sonia Bravo',
+        sz_docempid: '695ad69d-d3c1-4905-9f6f-a17559ccab8c',
+        sz_bookingstatus: 'New',
+        sz_bookingmode: 'Online',
+        sz_bookedforname: $("#name").val(),
+        sz_bookername: $("#name").val(),
+        sz_paymentmethod: $("#payment").val(),
+      }
+      $('#target').html('Sending..');
+      $.ajax({
+        url: 'http://3.126.223.86:23000/patient/bookappointment',
+        type: 'post',
+        dataType: 'json',
+        contentType: 'application/json',
+        success: function (data) {
+          $('#target').html('Sent!<br><a href="serenity.health">Click here to go back</a>');
+        },
+        data: JSON.stringify(appt)
+      });
+    }
+  </script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+.appt-type-box {
+  background-color: #eee;
+  padding: 1rem 2rem;
+  border-radius: 16px;
+  line-height: 2rem;
+}
+.appt-type-box a {
+  text-decoration: none !important;
+}
+.appt-type-box .title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.appt-type-box .time > * {
+  color: orange;
+}
+.appt-type-box:hover {
+  background-color: #ccc;
+  cursor: pointer;
+}
